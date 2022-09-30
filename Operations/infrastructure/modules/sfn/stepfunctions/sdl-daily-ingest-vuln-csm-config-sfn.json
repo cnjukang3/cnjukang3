@@ -1,0 +1,27 @@
+{
+  "Comment": "Security Data Lake Daily Ingest Step Functions",
+  "StartAt": "sdl-daily-init-services-map",
+  "States": {
+    "sdl-daily-init-services-map": {
+      "Type": "Map",
+      "End": true,
+      "Iterator": {
+        "StartAt": "sdl-daily-init-services-entry",
+        "States": {
+          "sdl-daily-init-services-entry": {
+            "Type": "Task",
+            "Parameters": {
+              "StateMachineArn.$": "States.Format('arn:aws:states:us-east-1:690322010149:stateMachine:{}', $.message.stage)",
+              "Input": {
+                "message.$": "$.message"
+              }
+            },
+            "OutputPath": "$.Output",
+            "Resource": "arn:aws:states:::states:startExecution.sync:2",
+            "End": true
+          }
+        }
+      }
+    }
+  }
+}

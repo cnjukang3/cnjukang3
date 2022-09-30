@@ -1,0 +1,11 @@
+{
+    "sdl-daily-aws": [
+      {"phase": "sdl-aws-cdm-feed", "phases": ["csm", "complete"]},
+      {"phase": "sdl-aws-feeds", "phases": ["AWS::ElasticLoadBalancing::LoadBalancer", "AWS::ElasticLoadBalancingV2::LoadBalancer", "AWS::EC2::Subnet", "AWS::EC2::SecurityGroup", "AWS::EC2::NetworkInterface", "complete"]},
+      {"phase": "sdl-aws-feeds", "phases": ["AWS::IAM::Group", "AWS::IAM::Policy", "AWS::IAM::Role", "AWS::IAM::User", "complete"]},
+      {"phase": "sdl-aws-feeds", "phases": ["AWS::WAF::Rule", "AWS::WAF::WebACL", "AWS::WAFRegional::RateBasedRule", "AWS::WAFRegional::Rule", "AWS::WAFRegional::WebACL", "AWS::WAFv2::IPSet", "AWS::WAFv2::RegexPatternSet", "AWS::WAFv2::RuleGroup", "AWS::WAFv2::WebACL", "complete"]}
+    ],
+    "sdl-daily-securitycenter": [
+      {"phase": "swam", "datacenter": "AWS"}
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "Comment": "sdl state machine: sdl-daily-aws-vcc for vuln, csm and config data lambda function",
+  "StartAt": "sdl-init-states",
+  "States": {
+    "sdl-init-states": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "End": true
+    }
+  }
+}

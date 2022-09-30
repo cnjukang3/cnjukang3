@@ -1,0 +1,2070 @@
+{
+    "datacenters": {
+        "AWS GovCloud": {
+            "bucket_name": "securitydatalake-staging-daily",
+            "path": "security-center/",
+            "datacenter": "5d8a99a8db672340f99cfd721f96190d",
+            "config_secret": "CONFIGDELEGATEGOVCLOUD",
+            "fisma_systems": [
+                {
+                    "fisma_system": {
+                        "System Name": "CMS Operations Information Network",
+                        "Acronym": "COIN",
+                        "Impact Rating": "",
+                        "Authorization Decision": "",
+                        "Primary Operating Location": "Amazon Web Services",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "decb018e1bc2f410ee09a82eac4cbb2"
+                    },
+                    "accounts": [
+                        "169669953619",
+                        "367095983308",
+                        "367185544840",
+                        "367362559545"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "CMS Acquisition Lifecycle Modernization",
+                        "Acronym": "CALM",
+                        "Impact Rating": "Moderate",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Amazon Web Services",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "cadce222dbd76f0085c976708c9619ae"
+                    },
+                    "accounts": [
+                        "150801113863",
+                        "150813973124",
+                        "150951794675",
+                        "151012937580",
+                        "617232147291",
+                        "809979242638"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "Amazon Web Services GovCloud",
+                        "Acronym": "AWS GovCloud",
+                        "Impact Rating": "High",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Amazon Web Services",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "5d8a99a8db672340f99cfd721f96190d"
+                    },
+                    "accounts": [
+                        "020435373343",
+                        "020548521789",
+                        "020847197482",
+                        "021175979101",
+                        "021568039808",
+                        "027700380771",
+                        "046999412673",
+                        "048500714926",
+                        "048800550882",
+                        "048824861081",
+                        "056455314827",
+                        "056578052959",
+                        "159544159433",
+                        "159671022618",
+                        "244885817719",
+                        "350521122370",
+                        "350522771286",
+                        "535697577246",
+                        "550850475295",
+                        "569510216399",
+                        "636244025455",
+                        "800705640067",
+                        "849527934584",
+                        "849635713722",
+                        "849804945443",
+                        "849838236929",
+                        "850047342494",
+                        "923077034908",
+                        "925174002695",
+                        "941507226726",
+                        "942356920595",
+                        "955504455164"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "CMS Baltimore Data Center - EDC4",
+                        "Acronym": "EDC4",
+                        "Impact Rating": "High",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "BDC",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "45CBFC1D-844D-48B7-B7AB-4D29D71C60E8"
+                    },
+                    "accounts": [
+                        "124261098009"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "Tableau",
+                        "Acronym": "Tableau",
+                        "Impact Rating": "Moderate",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Amazon Web Services",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "3221147b1b5a5c50ff05ea02f54bcbc3"
+                    },
+                    "accounts": [
+                        "298231697520",
+                        "298306204930",
+                        "298332697685"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "Box Storage Solution",
+                        "Acronym": "BSS",
+                        "Impact Rating": "High",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Amazon Web Services/BDC",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "05F7963C-D898-4C5C-BCD4-1F81B9D8F819"
+                    },
+                    "accounts": [
+                        "161439912561"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "CM - First Coast Service Options",
+                        "Acronym": "CM - FCSO",
+                        "Impact Rating": "High",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "FCSO",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "8A8A6171-2B4F-41B1-A84B-73C4AFA7332C"
+                    },
+                    "accounts": [
+                        "037775706219",
+                        "420893911978",
+                        "420935728470",
+                        "421061348374"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "CM - Palmetto Government Benefit Administrator",
+                        "Acronym": "CM - PGBA",
+                        "Impact Rating": "High",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Palmetto",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "413A9FC2-750A-41A2-9F35-48300682BB48"
+                    },
+                    "accounts": [
+                        "037813268375"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "System Name": "Enterprise Data Lake",
+                        "Acronym": "EDL",
+                        "Impact Rating": "Moderate",
+                        "Authorization Decision": "ATO",
+                        "Primary Operating Location": "Amazon Web Services",
+                        "TLC Phase": "Operate",
+                        "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                        "UID": "84a1765edb489090c9f1e4491396191c"
+                    },
+                    "accounts": [
+                        "171265137153",
+                        "171289172860",
+                        "289457351173",
+                        "498648587152",
+                        "498755538992"
+                    ]
+                }
+            ],
+            "default": {
+                "System Name": "Undefined",
+                "Acronym": "AWS GovCloud Other",
+                "Impact Rating": "",
+                "Authorization Decision": "",
+                "Primary Operating Location": "Amazon Web Services",
+                "TLC Phase": "",
+                "Data Center": "5d8a99a8db672340f99cfd721f96190d",
+                "UID": "5d8a99a8db672340f99cfd721f96190d"
+            }
+        },
+        "AWS": {
+            "bucket_name": "securitydatalake-staging-daily",
+            "path": "cdm/",
+            "datacenter": "56FFF52E-175B-4E48-9B38-669C8BC74899",
+            "config_secret": "CONFIGDELEGATE",
+            "fisma_systems": [
+                {
+                    "fisma_system": {
+                        "Acronym": "OSSM",
+                        "UID": "425F1012-4F49-4C37-AAD4-B08611650724",
+                        "System Name": "OCISO Systems Security Management",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "951351544041",
+                        "417756902683",
+                        "690322010149",
+                        "850877519083"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "ACO-OS",
+                        "UID": "AEB9B0A6-1D8D-43CD-BE3D-96CD489BDDF2",
+                        "System Name": "Accountable Care Organization-Operational System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "632967468021",
+                        "441681604018",
+                        "420011689500",
+                        "621420067907",
+                        "720033539791"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "APPS",
+                        "UID": "0074BAC6-7C64-452F-9991-BF844D99196C",
+                        "System Name": "Automated Plan Payment System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "707398445794",
+                        "518227896773",
+                        "106704498014",
+                        "990386603547",
+                        "659143877087"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CDAT",
+                        "UID": "E6B0C279-3881-4E6F-A813-8B6D06980F76",
+                        "System Name": "Centralized Data Abstraction Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "062942e6-b755-4d4d-8f19-a4b17af9fcce"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CM - FCSO",
+                        "UID": "8A8A6171-2B4F-41B1-A84B-73C4AFA7332C",
+                        "System Name": "CM - First Coast Service Options",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "432186458809",
+                        "725870526279",
+                        "285159361191",
+                        "786277389043",
+                        "051537944930",
+                        "498355610809",
+                        "624392426877",
+                        "099393400960",
+                        "337910033367"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DDPS",
+                        "UID": "66E2BF33-1DA5-4A78-986C-53D71D573D66",
+                        "System Name": "Drug Data Processing System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "012693954776"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DBidS",
+                        "UID": "74FA5AD1-F19C-4D3A-B71C-B09C1D4C2F65",
+                        "System Name": "Durable Medical Equipment Prosthetics Orthotics and Supplies Bidding System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "015915148626",
+                        "135415152694",
+                        "430118907643",
+                        "996203157366",
+                        "540845689317"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EDPS",
+                        "UID": "B3686D71-944A-4735-9263-3F1DB4A2AEC1",
+                        "System Name": "Encounter Data Processing System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "908258005933"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "eCHIMP",
+                        "UID": "E53A3505-2ACF-4298-B012-0CF2C96001BE",
+                        "System Name": "Enterprise Electronic Change Information Management Portal",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "794943374949",
+                        "796802112362",
+                        "715802364849",
+                        "016324309860",
+                        "692891961604"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HPMS",
+                        "UID": "F70E912C-4CF1-4CB4-A31D-56F61A26C403",
+                        "System Name": "Health Plan Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "410125766347",
+                        "031438595781"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HETS",
+                        "UID": "297D2A5A-2723-4630-8140-5B118E8490E9",
+                        "System Name": "HIPAA Eligibility Transaction System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "143744929765",
+                        "544648919771",
+                        "653893211329",
+                        "100174543111",
+                        "181468787208",
+                        "250696460458",
+                        "526842621147"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MARx",
+                        "UID": "DBE68C3F-F1E8-4391-B83D-C002E0F2FF12",
+                        "System Name": "Medicare Advantage and Prescription Drug System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "686215973568",
+                        "537373270922",
+                        "892031323213",
+                        "358398068734",
+                        "102910199989",
+                        "265858872598"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MAS",
+                        "UID": "04522B5D-304D-4371-BEE3-F15F4C175F62",
+                        "System Name": "Medicare Appeals System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "456724747541"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "RDS",
+                        "UID": "25DB857A-BD31-4CA2-AD98-047FCFC52725",
+                        "System Name": "Retiree Drug Subsidy System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "029309145300"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "RASS",
+                        "UID": "2F7A1ED2-3F1D-4BC9-93A6-0A4E5B5848B4",
+                        "System Name": "Risk Adjustment Suite of Systems",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "848393596071",
+                        "466361213913"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FFSDCS",
+                        "UID": "469C6C3C-4117-4177-886B-380878E1935B",
+                        "System Name": "Medicare Fee-for-Service Data Collection System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "575213837396"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EPS",
+                        "UID": "7FA691A8-53E4-41CF-A231-FCDF6AA880A2",
+                        "System Name": "CMS Enterprise Portal Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "396052392429",
+                        "681062179728",
+                        "028060084910",
+                        "019869564973"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EDC4",
+                        "UID": "45CBFC1D-844D-48B7-B7AB-4D29D71C60E8",
+                        "System Name": "CMS Baltimore Data Center - EDC4",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "322237669141",
+                        "300514759457",
+                        "009871530657",
+                        "201286468688",
+                        "194621053940",
+                        "095800747077",
+                        "127125542517"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DESY",
+                        "UID": "DFAEF1AF-D7EE-44F0-BD68-5DF5FC9E9514",
+                        "System Name": "Data Extract System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "9e060582-fc0d-42cb-9745-026a7ee8b406"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "ESDCU",
+                        "UID": "BC3011C5-925A-4283-9D1A-BDB09B10B7B1",
+                        "System Name": "Eligibility Support Desktop Change Utility Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "693468497312",
+                        "341719435516"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "IDR",
+                        "UID": "9145FECA-6503-4E76-868D-412E12807BDE",
+                        "System Name": "Integrated Data Repository",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "998120212175",
+                        "465439591986",
+                        "961897938676",
+                        "964621342552",
+                        "799434390103",
+                        "743902694663",
+                        "952590696403",
+                        "896223358035",
+                        "932828922624",
+                        "058044401578",
+                        "552116344170"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MPEDI",
+                        "UID": "595C83B9-B220-4BC0-9B12-3C84B882930E",
+                        "System Name": "Marketplace Electronic Data Interchange",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "73e7aad5-91e6-44d9-8193-0507e206ceb4",
+                        "220000098955",
+                        "117387120815",
+                        "898716811990",
+                        "272500643871"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MDM",
+                        "UID": "8666DE88-1BAD-4272-A600-147F61172561",
+                        "System Name": "Master Data Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "970407674697",
+                        "889560318457",
+                        "945139621221",
+                        "374745622518"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "NCH",
+                        "UID": "D6158E58-ED84-4143-A130-7DF21BBAA235",
+                        "System Name": "National Claims History",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "384392571547",
+                        "832658686751",
+                        "130084747278"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "zONE",
+                        "UID": "59471325-347D-47ED-9BE9-0CB80F1B0143",
+                        "System Name": "Opportunity to Network and Engage",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "980124149899",
+                        "667687613718",
+                        "333986012448",
+                        "087146460863",
+                        "129336736835"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "OCISO",
+                        "UID": "D98514B2-EB9D-45E8-B107-A5E8A2433CF7",
+                        "System Name": "OCISO Inheritable Controls",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "395006640297",
+                        "951118548203",
+                        "900804159969",
+                        "265172479150",
+                        "6f36cc15-4bce-46b4-95bc-5d2f23ed28a9",
+                        "870835421128",
+                        "380079715235",
+                        "118251742273",
+                        "119564699047"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CERRS",
+                        "UID": "57ACB6F2-A3AE-41F4-905F-29135060817C",
+                        "System Name": "CCIIO Enrollment Resolution and Reconciliation System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "42a477ac-f989-4739-b6b3-aabf5c49285b"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FDSH",
+                        "UID": "02931948-AD52-4B28-B2F3-7771372A2D14",
+                        "System Name": "Federal Data Services Hub",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "952716663595",
+                        "297943789020"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EACMS",
+                        "UID": "19A78154-8AA9-498E-8AE9-29B9914989A9",
+                        "System Name": "Eligibility Appeals Case Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "670776169925",
+                        "829490903814",
+                        "361991615522",
+                        "919833248227",
+                        "303311249255",
+                        "392485268493",
+                        "894333990227",
+                        "112046311903"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "XOC",
+                        "UID": "2DD3E858-9229-4358-879C-ED41CB52E3BE",
+                        "System Name": "Exchange Operations Center",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "129205332450",
+                        "462081232161",
+                        "285634635313",
+                        "024796520776",
+                        "329704154262",
+                        "835356299425",
+                        "733337660280",
+                        "437762027508",
+                        "362081102495",
+                        "588823976690",
+                        "112774968016",
+                        "376837587804",
+                        "647700536327",
+                        "647242295088"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FM-EDGE",
+                        "UID": "30FC9A36-B324-45BE-9E4C-C9593CC34A0F",
+                        "System Name": "Financial Management External Data Gathering Environment",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "878867041361",
+                        "126236057331",
+                        "744866331201",
+                        "692452275556",
+                        "827796641434",
+                        "150812941021",
+                        "266826865749",
+                        "463675016870",
+                        "015393735617",
+                        "805493216970",
+                        "494058909136",
+                        "282242218222",
+                        "612878428258"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FFM",
+                        "UID": "8A1693DD-21A9-42B8-ABA8-5169448124D0",
+                        "System Name": "Federally Facilitated Marketplaces",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "377407305141",
+                        "282265662704",
+                        "322554347870",
+                        "579551297855",
+                        "924131231118",
+                        "147916128756",
+                        "643481822370",
+                        "983382383760",
+                        "229329262723",
+                        "0b1849c9-56c6-4006-935d-a1a765180a44",
+                        "158256080073",
+                        "887326144406",
+                        "984141117586",
+                        "276143551330",
+                        "514407037979",
+                        "745681035655",
+                        "257972398355",
+                        "415796823171"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HIOS",
+                        "UID": "E8674AE3-276D-4BB3-BE96-C27D255ACA32",
+                        "System Name": "Health Insurance and Oversight System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "376085193890"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MIDAS",
+                        "UID": "E5D6C19E-B66F-4365-88CF-348D2A18DC05",
+                        "System Name": "Multidimensional Insurance Data Analytics System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "504262303805",
+                        "609584738892"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "REGTAP",
+                        "UID": "16540DBF-F41C-403F-9270-76F512E2BEE3",
+                        "System Name": "Registration for Technical Assistance Portal",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "901046840875"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CCRMS",
+                        "UID": "E0A1EB5B-CE52-4F0C-AD6B-F9B22B6CF4C5",
+                        "System Name": "CCIIO Customer Relations Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "202277851114",
+                        "931406605753",
+                        "077048043834",
+                        "871738139721",
+                        "535998656700",
+                        "707092469193",
+                        "909891452363",
+                        "502044301674",
+                        "223115237988"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SERVIS",
+                        "UID": "D1B0E899-208B-40D0-A531-D148CDA4309E",
+                        "System Name": "State Exchange Resource Virtual System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "933005136566"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "VAMS",
+                        "UID": "3B302570-F053-42F0-8123-5B193893FFEE",
+                        "System Name": "Virtual Audit Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "641683869963",
+                        "584990889216",
+                        "459112459414",
+                        "718523627336"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "esMD",
+                        "UID": "50CF5C69-FB39-4957-B386-859DBA29B16D",
+                        "System Name": "Electronic Submission of Medical Documentation",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "677660331133",
+                        "818345503029",
+                        "185094109060",
+                        "174393543144",
+                        "404845700881",
+                        "479922720506",
+                        "953636485208"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HIGLAS",
+                        "UID": "C9B9A131-F974-49BD-BBFF-1B0235747C0E",
+                        "System Name": "Healthcare Integrated General Ledger Accounting System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "7a71083d-7eda-4762-a740-d102ee2d5e78"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PS&R",
+                        "UID": "42DD6E47-4868-4E85-B5B5-30B1E2A94764",
+                        "System Name": "Provider Statistical and Reimbursement System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "160296500864"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "APS",
+                        "UID": "64A0C7C0-0517-492B-9CF7-BC6FAB9027A0",
+                        "System Name": "Advanced Provider Screening",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "858087243182",
+                        "203649618876",
+                        "004998247260",
+                        "508300490120",
+                        "443841623847",
+                        "962822876314",
+                        "094310297205"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MED",
+                        "UID": "2259786C-9F00-4D44-B0DB-84FB3FD969CC",
+                        "System Name": "Medicare Exclusion Database",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "559033823030",
+                        "761940898453",
+                        "559505729833",
+                        "455241924564",
+                        "093914001052"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "NPPES",
+                        "UID": "552A761C-51BE-4821-A129-12FA16356829",
+                        "System Name": "National Plan and Provider Enumeration System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "306291742170",
+                        "216879007583",
+                        "137487143306",
+                        "268102116493",
+                        "599853188924"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "OnePI",
+                        "UID": "F31E4DEE-64C5-43EB-A2A7-C32F8F5035D4",
+                        "System Name": "One Program Integrity",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "765460745490",
+                        "152829184687",
+                        "175044801051",
+                        "554390964249",
+                        "412533809530"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PI-Advance Med",
+                        "UID": "EEAF9D12-E1AB-4F10-936E-AF3418263018",
+                        "System Name": "Program Integrity Contractor Advance Med",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "463222883110",
+                        "035290678306",
+                        "166894002495"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CATS",
+                        "UID": "BD21CBA0-96D3-4718-84B0-B07DEBA02A79",
+                        "System Name": "CMS Administrative Technology Solutions",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "654240303314",
+                        "860985845360",
+                        "525126620337"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "AWS",
+                        "UID": "56FFF52E-175B-4E48-9B38-669C8BC74899",
+                        "System Name": "Amazon Web Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "323417195487",
+                        "796780338885",
+                        "111594127594",
+                        "414072695903",
+                        "214390622075",
+                        "211375202307",
+                        "726206614987",
+                        "929855980606",
+                        "377560037792",
+                        "463134952081",
+                        "628934477445",
+                        "492131361192",
+                        "743302140042",
+                        "533631759315",
+                        "464673255361",
+                        "714001881729",
+                        "950748037571",
+                        "022491616788",
+                        "017486052110",
+                        "932225298755",
+                        "664598445001",
+                        "124266226389",
+                        "614116260326",
+                        "672397593743",
+                        "766082525853",
+                        "125425519911",
+                        "762672630649",
+                        "517475254363",
+                        "566623031478",
+                        "444783909713",
+                        "657977361272",
+                        "868802928445",
+                        "430218376119",
+                        "644188244312",
+                        "858129026184",
+                        "921617238787",
+                        "452197540487",
+                        "647432058324",
+                        "857383833543",
+                        "567113916688",
+                        "051685381452",
+                        "759948011375",
+                        "943648865992",
+                        "507631551536",
+                        "465030022281",
+                        "060406744803",
+                        "131869499662",
+                        "647502400547",
+                        "492010048449",
+                        "148125731166",
+                        "220140242970",
+                        "502312041847",
+                        "819495148323",
+                        "724350100575",
+                        "063767539093",
+                        "985074048479",
+                        "898033578766",
+                        "314588501126",
+                        "751963892717",
+                        "770665878164",
+                        "315858854327",
+                        "641054126528",
+                        "012614099871",
+                        "724136196028",
+                        "534803342964",
+                        "368332260651",
+                        "417284244789",
+                        "052042835508",
+                        "172460197414",
+                        "405717129063",
+                        "346570397073",
+                        "546924760321",
+                        "280350076387",
+                        "151810046576",
+                        "694448206135",
+                        "204488982178",
+                        "249310508038",
+                        "610973593655",
+                        "313092613701",
+                        "837773570949",
+                        "102578040742",
+                        "116248235601",
+                        "831579051573",
+                        "888493147335",
+                        "897159243012",
+                        "236122232317",
+                        "002040086355",
+                        "034483518995",
+                        "814022557732",
+                        "886819535038",
+                        "044668164210",
+                        "166612972011",
+                        "370251395530",
+                        "095920387628",
+                        "578628095457",
+                        "075585704664",
+                        "460220756400",
+                        "310152050266",
+                        "101823690863",
+                        "567232845098",
+                        "958974101980",
+                        "020825272856",
+                        "356238042418",
+                        "758849545670",
+                        "369083211295",
+                        "373346310182",
+                        "270478921721",
+                        "129622821612",
+                        "891576450891",
+                        "396661219430",
+                        "083887284952",
+                        "086554530077",
+                        "982141685148",
+                        "175786337367",
+                        "044608576388",
+                        "477005956735",
+                        "546085968493",
+                        "573629285115",
+                        "344519344232",
+                        "623510781344",
+                        "289501377674",
+                        "865709136981",
+                        "635526538414",
+                        "917337500557",
+                        "539808058612",
+                        "173389111136",
+                        "637667179175",
+                        "151758457215",
+                        "630486811570",
+                        "143796804055",
+                        "629014591226",
+                        "083791537459",
+                        "912221209007",
+                        "478919403635",
+                        "156606473820",
+                        "581338460305",
+                        "803630105753",
+                        "842420567215",
+                        "721603804458",
+                        "906170153649",
+                        "055929527882",
+                        "265716164385",
+                        "509814446709",
+                        "492913949323",
+                        "714767623162",
+                        "143454207788",
+                        "355746394518",
+                        "327583363185",
+                        "524240102971",
+                        "760862794030",
+                        "554760237737",
+                        "656395180286",
+                        "706569442529",
+                        "758011882210",
+                        "653269136768",
+                        "233150298404",
+                        "440876139985",
+                        "314582320161",
+                        "888221668055",
+                        "360433083926",
+                        "877626052706",
+                        "306839597671",
+                        "277814062798",
+                        "209188133379",
+                        "807178140717",
+                        "489047662290",
+                        "136444362302",
+                        "058158309362",
+                        "863306670509",
+                        "233062397710",
+                        "620711956731"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "ECWS",
+                        "UID": "5C694C65-0D0F-4296-8E4B-4474ED5A4F8C",
+                        "System Name": "Exchange Consumer Web Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "521784486762"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "IServ",
+                        "UID": "B45EA49A-27A2-4171-85C5-503653093CCA",
+                        "System Name": "Internet Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "256489041421"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "NDW",
+                        "UID": "159BEC3C-C8E6-42AA-858F-65E1BC9B484E",
+                        "System Name": "National Data Warehouse",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "286725408277",
+                        "745817677160",
+                        "756182267098",
+                        "049788744066",
+                        "939920156251",
+                        "678142600764"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CMS ART",
+                        "UID": "7F0709DB-D0A4-4F9C-BFA4-7F67D7AF93F7",
+                        "System Name": "CMS Analysis Reporting and Tracking System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "643056767793",
+                        "480045796250",
+                        "686396433469",
+                        "480475830916",
+                        "368248112061",
+                        "312750426442"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SWIFT",
+                        "UID": "F8A55491-C71A-442B-8EC9-9804A71FE912",
+                        "System Name": "Strategic Work Information Folder Transfer System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "607753413665",
+                        "361949351565",
+                        "094426171173",
+                        "154244065702"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HCRIS",
+                        "UID": "E818119D-B7E9-4531-BFB5-DCFD1A4ECB8D",
+                        "System Name": "Health Care Cost Report Information System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "903238735694"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MACPro",
+                        "UID": "667588DF-AD8A-45BD-A5D2-1775CE46C514",
+                        "System Name": "Medicaid and CHIP Program System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "446712541566",
+                        "844367386026",
+                        "459236791836",
+                        "677829493285",
+                        "281381669991",
+                        "701789472057",
+                        "175972079437",
+                        "169888657886",
+                        "483510388816",
+                        "989324938326",
+                        "044969939588",
+                        "371820692882",
+                        "910670052382",
+                        "463891878477",
+                        "441002987790",
+                        "760820259496",
+                        "088925538735",
+                        "674529720001",
+                        "024259748323",
+                        "581264611691",
+                        "798659716464",
+                        "519095364708",
+                        "388425416227",
+                        "302232934210",
+                        "730373213083",
+                        "666324759800",
+                        "980018549706",
+                        "666736308865",
+                        "116229642442",
+                        "429188537274",
+                        "635052997545",
+                        "204375272847",
+                        "591572556330",
+                        "121499393294",
+                        "582599238767",
+                        "343236570990"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SC-CLIA",
+                        "UID": "58221C5A-AA8C-46B5-9424-8CD2CA43F729",
+                        "System Name": "Survey and Certification and Clinical Laboratories Improvement Amendments Act",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "671130308372"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "T-MSIS",
+                        "UID": "90D17CC9-6271-4077-B59E-077A8DEA7A90",
+                        "System Name": "Transformed Medicaid Statistical Information System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "270760954902",
+                        "717546955209",
+                        "695922482812",
+                        "978858051960",
+                        "491696028422"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MCIM",
+                        "UID": "51D252AB-2179-4FF9-A869-FB0BD9E1FAC1",
+                        "System Name": "Medicare Coverage Information Management",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "559364462533",
+                        "747878713008",
+                        "994662781600",
+                        "043955014975"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "IHP",
+                        "UID": "0E656148-5DFB-4F10-A8EC-972FE4122EC9",
+                        "System Name": "Innovation Center",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "845822087083",
+                        "654412774769",
+                        "839960698094",
+                        "057446179674",
+                        "247144670579"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EWST",
+                        "UID": "E62D0B0C-192C-4D1F-ACA6-5E8C1C4DAE90",
+                        "System Name": "Enterprise Website Supporting Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "463968791321"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PET",
+                        "UID": "3A77FA82-61A0-4A72-8294-55A87CF6BCFC",
+                        "System Name": "Premium Estimation Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "350076322261"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SLS",
+                        "UID": "77F8FE5E-3F38-48E5-A667-6087EBA7B2E1",
+                        "System Name": "Scalable Login Systems",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "074424520335"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FLH",
+                        "UID": "9B8E3182-90DA-4696-B5A5-3A1433F95607",
+                        "System Name": "Find Local Help",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "136935787478"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MODS",
+                        "UID": "0AD77CB6-372D-444C-83B4-C2479B21983C",
+                        "System Name": "Marketplace Outreach Data System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "421027403603"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PMDA",
+                        "UID": "69175558-4FBC-4FFA-B26C-4EEB739E80CC",
+                        "System Name": "1115 Demonstration Performance Management Database and Analytics System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "095166567611"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MLMS",
+                        "UID": "B544FF41-ED39-4A1F-9746-0936039449F6",
+                        "System Name": "Marketplace Learning Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "414506041211",
+                        "963950176952",
+                        "852588105408",
+                        "648715318357"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CMS SP",
+                        "UID": "EB9FA857-4933-4718-A52D-EBACB283D971",
+                        "System Name": "CMS SharePoint / CAPMS",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "3BDF2074-C633-4337-BB1A-403907AD3CA2",
+                        "358963838318",
+                        "281824821115",
+                        "EA45CCF4-DC02-4B07-ABEA-D80B03673E75",
+                        "153598531387",
+                        "756430373118",
+                        "388704770876",
+                        "660048133839",
+                        "E96EFEED-6EFD-41BE-9EC9-6FA026609CB4",
+                        "7A240826-9F57-47C3-BF3D-628660BDD168",
+                        "ACEFBA78-3454-4832-80CC-53D383C63D05"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "UCM",
+                        "UID": "E1C44094-1044-4DF7-9B5D-1043808623D3",
+                        "System Name": "Unified Case Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "056917353687",
+                        "023478216046",
+                        "608973273400",
+                        "880459142958",
+                        "145001547331",
+                        "356237190563",
+                        "336110063492",
+                        "137850127813",
+                        "655713441757",
+                        "701061157464",
+                        "678153623622",
+                        "135042808539"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PWSS",
+                        "UID": "BF3B847B-38E9-49CC-A998-9B514731E628",
+                        "System Name": "Public Website Shared Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "596489105035",
+                        "763895366843",
+                        "331698725649"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "ELMO",
+                        "UID": "B24B90E1-3425-4B7A-9D15-5BE22ABCA926",
+                        "System Name": "Eligibility and Enrollment Medicare Online",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "468535762648",
+                        "332105215079"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MHDR",
+                        "UID": "2E31381D-08B7-421E-B2A2-95D5ED7BB7BF",
+                        "System Name": "Million Hearts Data Registry",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "696298643435"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "QPP",
+                        "UID": "E879AA7F-925C-4E11-ACF3-508A7AE6CF4C",
+                        "System Name": "Quality Payment Program",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "356182883268",
+                        "863249929524",
+                        "476307105731",
+                        "214843959152",
+                        "075503252202",
+                        "603842843261",
+                        "621384053645",
+                        "941681414890",
+                        "968524040713",
+                        "513715589246",
+                        "003384571330",
+                        "375727523534",
+                        "504683563479",
+                        "948664672160",
+                        "042418092309",
+                        "112637689005",
+                        "427702624714"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "NTP LMS",
+                        "UID": "A1837A4F-4EF5-42D1-9537-82178667A8EB",
+                        "System Name": "CMS National Training Program Learning Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "488074649152"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "FPS2.0",
+                        "UID": "54E989AE-EAFA-4841-9656-02318DDF2C45",
+                        "System Name": "Fraud Prevention System 2.0",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "625172553688",
+                        "076363995403",
+                        "770416105470",
+                        "350072861943",
+                        "330261502711",
+                        "288059013054"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "BBAPI",
+                        "UID": "6C0CBCD4-5BD4-426B-A1FD-F76C1DF62DFD",
+                        "System Name": "Blue Button API on Fast Healthcare Interoperability Resources",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "033762437442",
+                        "012128189293",
+                        "599919500144",
+                        "267630436847",
+                        "021905791997",
+                        "346063878512",
+                        "577373831711",
+                        "229244379369",
+                        "792012516325",
+                        "587200609028",
+                        "501705132200",
+                        "931091431217"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MDP",
+                        "UID": "2068E0D8-77D9-4A8E-92D2-F1817667412C",
+                        "System Name": "Medicaid Drug Programs",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "898713061480"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MNPS",
+                        "UID": "69454ECC-1588-4C5C-8CD0-C117F3EC4D35",
+                        "System Name": "Marketplace Notice Production Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "256469983224"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DEX",
+                        "UID": "93BFA6DB-C472-4784-8D7F-A35A0B2FB4A8",
+                        "System Name": "Data Exchange System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "051856445180"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CMMI-IPC",
+                        "UID": "ABACCA15-F643-4DDE-A8B1-CE7F6FF8334C",
+                        "System Name": "Centers for Medicare and Medicaid Innovation-Innovation Payment Contractor",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "927516240696"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MACDW",
+                        "UID": "0A5A0CE9-962E-4C9C-8027-02B8EAED7C27",
+                        "System Name": "MACBIS Data Warehouse",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "156322662943",
+                        "037370603820",
+                        "810638926762"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SEI",
+                        "UID": "3F9B8D09-DFEA-4C26-BB1D-81616E6B6159",
+                        "System Name": "Salesforce Enterprise Integration",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "023016295528",
+                        "723549835402",
+                        "457888048067",
+                        "606024700840"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "AMS",
+                        "UID": "8DEEC461-6333-4A22-B88A-FF0BCB41B019",
+                        "System Name": "APM Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "232306044940"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "ACO-MS",
+                        "UID": "75259954-6177-427A-B4C5-2A9186D117E5",
+                        "System Name": "Accountable Care Organization Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "372857161348",
+                        "277808476879",
+                        "742628475608",
+                        "246850379719",
+                        "722567548419"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PECOS 2.0",
+                        "UID": "F44A1F06-18A3-41D0-99CB-85B60ADBB22A",
+                        "System Name": "Provider Enrollment Chain and Ownership System 2.0",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "857548234366",
+                        "764096703621"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MOSS",
+                        "UID": "409E94AE-000D-4920-A163-4A60F5EEE9A6",
+                        "System Name": "Medicare Online Support System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "626512334475"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "BCDA",
+                        "UID": "5BB2BA49-E134-4F65-A2BC-0075330836B9",
+                        "System Name": "Beneficiary Claims Data API",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "349849222861",
+                        "653916833532",
+                        "777200079629",
+                        "755619740999",
+                        "330810004472",
+                        "595094747606"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "IDM",
+                        "UID": "059e6626dbd76f0085c976708c9619a6",
+                        "System Name": "Identity Management",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "661745609051",
+                        "611585662153"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MACFin",
+                        "UID": "81462f1adb1877009b3772840f961965",
+                        "System Name": "Medicaid And CHIP Financial",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "741306476019"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HWDTT",
+                        "UID": "14d952dadb5b2f0085c976708c9619ff",
+                        "System Name": "Health & Welfare Data Tracker Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "722502818629"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DRaaS-CACHE",
+                        "UID": "441a2d4fdbfbab00560cf9531f961911",
+                        "System Name": "Continuously Available CMS Hosting Environment",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "124253636658"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HEDIS Patient Data",
+                        "UID": "5adec1eddb887340296cfd0e0f96197e",
+                        "System Name": "HEDIS Patient Data",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "32fd1e39-a621-4c56-8311-4c8eac75b7ce"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CEDAR",
+                        "UID": "c85efeb4dbb43b40c029388d7c9619a1",
+                        "System Name": "CMS Enterprise Data Analytics Repository",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "423719920217"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MPSE",
+                        "UID": "414f2afedb5233400db67e560f9619ff",
+                        "System Name": "Medicare Payment System Environment",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "051277838191",
+                        "473398231629",
+                        "380778240870",
+                        "842790603749",
+                        "925662516533",
+                        "161171040826",
+                        "960792214373",
+                        "161153062797",
+                        "481621727345",
+                        "670496319188",
+                        "756544056165",
+                        "275766697958",
+                        "281452723982",
+                        "333172162582",
+                        "999288447938"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CDX",
+                        "UID": "f558ff35dbbafb00f99cfd721f9619b5",
+                        "System Name": "Centralized Data Exchange",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "dc79f483-4d0a-4eee-a9a8-11e33a7d1601",
+                        "8f7abc30-cab2-4c7c-a271-b640c8c13586",
+                        "618a7690-c232-43aa-9a36-7adc6339cbbf"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "RAD",
+                        "UID": "4af452c1db17f380512770131f961990",
+                        "System Name": "Risk Adjustment Data",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "634764474065",
+                        "048659475162",
+                        "890706748077",
+                        "010929928112",
+                        "501638203397",
+                        "599414616139",
+                        "788688194232",
+                        "750735377761"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "IDRC",
+                        "UID": "a990031bdbdb37000db67e560f9619f0",
+                        "System Name": "Integrated Data Repository Cloud",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "802597518959",
+                        "772614087260",
+                        "596861161618",
+                        "637451922304",
+                        "095286524217",
+                        "232722229861",
+                        "776882879127",
+                        "148550782651",
+                        "360426975671",
+                        "506921813928",
+                        "306585980248",
+                        "897573449596",
+                        "291492156955",
+                        "955674149862"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EASi",
+                        "UID": "03e40349db94805085c976708c961905",
+                        "System Name": "Easy Access to System Information",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "840301899071",
+                        "262987211576",
+                        "893704365041",
+                        "547705466176"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "HRES",
+                        "UID": "95392439db248410296cfd0e0f961941",
+                        "System Name": "Human Resources Enterprise Systems",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "022920049231"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "OCEAN",
+                        "UID": "112a2d27db348c1073ebf50d0f9619d6",
+                        "System Name": "Organizational Cloud Economics and Analytics Nexus",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "245877399979"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "WDDSE",
+                        "UID": "d50fdc87db3a04909b3772840f9619e2",
+                        "System Name": "Website Database Discovery Stakeholder Engagement",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "626603135148",
+                        "125721422415",
+                        "625550922021",
+                        "545212487032",
+                        "324341083081"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PCG-FHIR",
+                        "UID": "ed049bcddbf608500887f4d40f9619bc",
+                        "System Name": "Provider Compliance Group-Fast Healthcare Interoperability Resources",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "787512052054"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PERM-ERDCT",
+                        "UID": "1b815a3adb770050512770131f961953",
+                        "System Name": "Payment Error Rate Measurement-Eligibility Review Data Collection Tool",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "771813282316",
+                        "923977233088",
+                        "029040879240",
+                        "103777146052",
+                        "169435401107"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "EDL",
+                        "UID": "84a1765edb489090c9f1e4491396191c",
+                        "System Name": "Enterprise Data Lake",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "724285879981",
+                        "310946103770",
+                        "782747344429",
+                        "772144152961",
+                        "517634383609",
+                        "283041189490",
+                        "552168070345"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MSPSC MA",
+                        "UID": "c505b9f21b46901044e4ed7bbc4bcbac",
+                        "System Name": "Medicare Secondary Payer Systems Contractor - Major Application",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "787927464415",
+                        "116915543549"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CCM",
+                        "UID": "d917b2431b0a1410c74fb913cc4bcb11",
+                        "System Name": "Cloud Content Management",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "739678152787",
+                        "609068678022",
+                        "720338836484",
+                        "362088407286"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "Tableau",
+                        "UID": "3221147b1b5a5c50ff05ea02f54bcbc3",
+                        "System Name": "Tableau",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "191567908747",
+                        "485830083088",
+                        "497091175434"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CVM",
+                        "UID": "e2570bb31b62d0108b1163dbe54bcbd6",
+                        "System Name": "Conversion Medicare",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "155069514116",
+                        "352181777732",
+                        "582240607020",
+                        "230173506074"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MAX",
+                        "UID": "6698397c1bfa1810ee09a82eac4bcbc6",
+                        "System Name": "Medicare Authenticated Experience",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "323029446794",
+                        "054108429097",
+                        "721106025204",
+                        "848393022792"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "CM-AdQIC",
+                        "UID": "55aede951b5ad05003b5ed39bc4bcb61",
+                        "System Name": "Administrative QIC",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "597903970150",
+                        "703523378174",
+                        "523808867663"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "SCOUT",
+                        "UID": "38b0d90a1b671c107b2dddb6bc4bcbbd",
+                        "System Name": "Security Control Orchestration Utilities and Tooling",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "263813120251",
+                        "001265600887",
+                        "394953402894",
+                        "198854277681"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "DMDG",
+                        "UID": "d701fe041b7da8505929877be54bcb86",
+                        "System Name": "Metadata Management & Data Governance COTS Software Maintenance and Support Services",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "47f33832-1d76-4639-8031-b81ccc80bb3c",
+                        "b12e3023-842c-4a0e-b4b2-557bb9d068c2",
+                        "550605446898"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "Blueprint",
+                        "UID": "17c87a1d1be66c10304d20ecac4bcb71",
+                        "System Name": "Blueprint",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "154503817009",
+                        "472806856666",
+                        "042105373905",
+                        "552567013053",
+                        "471758587949"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "MOMOT",
+                        "UID": "4b87e7221bcb6050f926a93ce54bcbbe",
+                        "System Name": "Marketplace Open Modernization and Optimization Technologies",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "454876819616",
+                        "994092937235",
+                        "965401560139",
+                        "688301866513",
+                        "426795451970",
+                        "341753702882",
+                        "254370080718",
+                        "139271010725"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "API Gateway",
+                        "UID": "e5cbb3511b232c50b98f62cfe54bcbd8",
+                        "System Name": "Application Programming Interface Gateway",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "910136547651"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "PMPP",
+                        "UID": "56661e501b5c7410b98f62cfe54bcbcb",
+                        "System Name": "Payment Recovery Information System PRIS Plan Portal",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "657367238482",
+                        "831325917602",
+                        "166680266894",
+                        "269344202774"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "UniFHIR",
+                        "UID": "5a497c9f1b707c10ee09a82eac4bcbe1",
+                        "System Name": "UniFHIR",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "902117324897",
+                        "905853400227"
+                    ]
+                },
+                {
+                    "fisma_system": {
+                        "Acronym": "VBCS",
+                        "UID": "e476fc8d1b66b01063b4a932f54bcb4e",
+                        "System Name": "Value Based Care Management System",
+                        "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+                    },
+                    "accounts": [
+                        "101804386052",
+                        "759279013737",
+                        "853957177113"
+                    ]
+                }
+            ],
+            "default": {
+                "Acronym": "AWS Other",
+                "UID": "56FFF52E-175B-4E48-9B38-669C8BC74899",
+                "System Name": "Undefined",
+                "Data Center": "56FFF52E-175B-4E48-9B38-669C8BC74899"
+            }
+        }
+    }
+}

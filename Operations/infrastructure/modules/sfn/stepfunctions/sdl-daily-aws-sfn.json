@@ -1,0 +1,72 @@
+{
+  "Comment": "Security Data Lake Daily AWS Ingest Step Functions",
+  "StartAt": "sdl-aws-ingest-init",
+  "States": {
+    "sdl-aws-ingest-init": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "Parameters": {
+        "FunctionName.$": "States.Format('arn:aws:lambda:us-east-1:690322010149:function:{}', $.message.phase)",
+        "Payload": {
+          "message.$": "$.message"
+        }
+      },
+      "Next": "sdl-aws-ingest-resource-assesment"
+    },
+    "sdl-aws-ingest-resource-assesment": {
+      "Type": "Map",
+      "MaxConcurrency": 100,
+      "ItemsPath": "$.Payload",
+      "End": true,
+      "Iterator": {
+        "StartAt": "sdl-aws-ingest-stage-choice",
+        "States": {
+          "sdl-aws-ingest-stage-choice": {
+            "Type": "Choice",
+            "Choices": [
+              {
+                "Variable": "$.message.phases[0]",
+                "StringEquals": "complete",
+                "Next": "sdl-aws-ingest-exit"
+              }
+            ],
+            "Default": "sdl-aws-ingest-resource-entry"
+          },
+          "sdl-aws-ingest-resource-entry": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::lambda:invoke",
+            "Parameters": {
+              "FunctionName.$": "States.Format('arn:aws:lambda:us-east-1:690322010149:function:{}', $.message.stage)",
+              "Payload": {
+                "message.$": "$.message"
+              }
+            },
+            "Retry": [
+              {
+                "ErrorEquals": [
+                  "Lambda.TooManyRequestsException",
+                  "Lambda.Unknown"
+                ],
+                "IntervalSeconds": 1,
+                "MaxAttempts": 5,
+                "BackoffRate": 5
+              }
+            ],
+            "Next": "sdl-aws-ingest-stage-pass"
+          },
+          "sdl-aws-ingest-stage-pass": {
+            "Type": "Pass",
+            "Next": "sdl-aws-ingest-stage-choice",
+            "Parameters": {
+              "message.$": "$.Payload.message"
+            }
+          },
+          "sdl-aws-ingest-exit": {
+            "Type": "Pass",
+            "End": true
+          }
+        }
+      }
+    }
+  }
+}

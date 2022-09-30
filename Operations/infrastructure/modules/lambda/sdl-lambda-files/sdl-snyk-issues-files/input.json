@@ -1,0 +1,55 @@
+{
+  "filters": {
+    "orgs": []
+    , 
+    "severity": [
+      "critical",
+      "high",
+      "medium",
+      "low"
+    ],
+    "exploitMaturity": [
+      "mature",
+      "proof-of-concept",
+      "no-known-exploit",
+      "no-data"
+    ],
+    "types": [
+      "vuln",
+      "license"
+    ],
+    "languages": [
+      "node",
+      "javascript",
+      "ruby",
+      "java",
+      "scala",
+      "python",
+      "golang",
+      "php",
+      "dotnet",
+      "swift-objective-c",
+      "elixir",
+      "docker",
+      "linux",
+      "dockerfile",
+      "terraform",
+      "kubernetes",
+      "helm",
+      "cloudformation"
+    ],
+    "projects": [],
+    "issues": [],
+    "ignored": false,
+    "patched": false,
+    "fixable": false,
+    "isFixed": false,
+    "isUpgradable": false,
+    "isPatchable": false,
+    "isPinnable": false,
+    "priorityScore": {
+      "min": 0,
+      "max": 1000
+    }
+  }
+}

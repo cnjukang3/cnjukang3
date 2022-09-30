@@ -1,0 +1,65 @@
+{
+  "Comment": "Security Data Lake Security Center Daily Ingest",
+  "StartAt": "sdl-securitycenter-feeds-init",
+  "States": {
+    "sdl-securitycenter-feeds-init": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:us-east-1:690322010149:function:sdl-securitycenter-feeds",
+      "Next": "sdl-securitycenter-feeds-map"
+    },
+    "sdl-securitycenter-feeds-map": {
+      "Type": "Map",
+      "End": true,
+      "MaxConcurrency": 10,
+      "Iterator": {
+        "StartAt": "sdl-securitycenter-feeds-choice",
+        "States": {
+          "sdl-securitycenter-feeds-choice": {
+            "Type": "Choice",
+            "Choices": [
+              {
+                "Variable": "$.phase",
+                "StringEquals": "complete",
+                "Next": "sdl-securitycenter-feeds-exit"
+              },
+              {
+                "Or": [
+                  {
+                    "Variable": "$.phase",
+                    "StringEquals": "csm"
+                  },
+                  {
+                    "Variable": "$.phase",
+                    "StringEquals": "vuln"
+                  }
+                ],
+                "Next": "sdl-securitycenter-feeds-process-entry"
+              }
+            ],
+            "Default": "sdl-securitycenter-feeds-exit"
+          },
+          "sdl-securitycenter-feeds-process-entry": {
+            "Type": "Task",
+            "Resource": "arn:aws:lambda:us-east-1:690322010149:function:sdl-securitycenter-feeds",
+            "Retry": [
+              {
+                "ErrorEquals": [
+                  "Lambda.TooManyRequestsException",
+                  "Lambda.Unknown"
+                ],
+                "IntervalSeconds": 1,
+                "MaxAttempts": 5,
+                "BackoffRate": 5
+              }
+            ],
+            "Next": "sdl-securitycenter-feeds-choice"
+          },
+          "sdl-securitycenter-feeds-exit": {
+            "Type": "Pass",
+            "End": true
+          }
+        }
+      }
+    }
+  }
+}

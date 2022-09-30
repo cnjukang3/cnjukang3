@@ -1,0 +1,7 @@
+{
+    "sdl-daily-aws-vcc": [ 
+      {"phase": "sdl-aws-cdm-vuln-feed", "phases": ["vuln", "complete"]}, 
+
+      {"phase": "sdl-aws-cdm-config_data-feed", "phases": ["config_data", "complete"]}
+    ]
+}

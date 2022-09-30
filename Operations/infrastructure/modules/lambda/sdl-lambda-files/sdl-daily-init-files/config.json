@@ -1,0 +1,4 @@
+{
+    "sdl-daily-aws": {"sdl-cdm-init": {}, "sdl-iam-init": {}},
+    "sdl-daily-securitycenter": {"swam": {"datacenter": "AWS"}}
+}
